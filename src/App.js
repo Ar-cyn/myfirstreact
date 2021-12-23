@@ -1,7 +1,10 @@
 import logo from './bg.png';
 import './App.css';
-import Button from './js/Button';
+import Button from './components/Button';
+import Greet from './components/Greet';
+import Message from './components/Message';
 
+//jsx - js xml
 function App() {
   return (
     <div className="App">
@@ -10,17 +13,26 @@ function App() {
         <p>
           Welcome to the internet!
         </p>
-        <Button />
+        
         <br>
             
         </br>
+        <Button/>
+
+        <Greet name = "Clint" heroName = "Hawkeye">
+          <Message/>
+        </Greet>
+        <Greet name = "Kate" heroName = "Hawkeye"/>
+        <Greet name = "Maya" heroName = "Echo"/>
+        <Greet name = "Lucky" heroName = "Pizza Dog"/>
+
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          What would you prefer?
+          Click me!
         </a>
       </header>
     </div>
