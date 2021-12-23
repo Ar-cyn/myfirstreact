@@ -3,8 +3,12 @@ import './App.css';
 import Button from './components/Button';
 import Greet from './components/Greet';
 import Message from './components/Message';
+import Hello from './components/Hello';
+
 
 //jsx - js xml
+//react not a framework!
+//angular. vue
 function App() {
   return (
     <div className="App">
@@ -13,6 +17,8 @@ function App() {
         <p>
           Welcome to the internet!
         </p>
+
+        <p>{Hello ()} </p>
         
         <br>
             
