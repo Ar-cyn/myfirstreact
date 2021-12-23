@@ -25,7 +25,7 @@ function App() {
         </br>
         <Button/>
 
-        <Greet name = "Clint" heroName = "Hawkeye">
+        <Greet name = {Hello()} heroName = "Hawkeye">
           <Message/>
         </Greet>
         <Greet name = "Kate" heroName = "Hawkeye"/>
