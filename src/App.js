@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import logo from './bg.png';
 import './App.css';
+import Button from './js/Button';
 
 function App() {
   return (
@@ -9,13 +10,17 @@ function App() {
         <p>
           Welcome to the internet!
         </p>
+        <Button />
+        <br>
+            
+        </br>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Come and take a seat!
+          What would you prefer?
         </a>
       </header>
     </div>
